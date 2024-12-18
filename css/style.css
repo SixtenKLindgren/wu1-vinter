@@ -6,7 +6,7 @@
 }
 
 :root {
-  --color-bg: rgba(103, 157, 157, 0.587);
+  --color-bg: rgba(197, 19, 19, 0.587);
   --color-fg: #fff;
 
   --font-body: sans-serif;
@@ -53,6 +53,7 @@ p {
     font-size: var(--step-2);
     color: var(--color-fg);
     font-family: var(--font-body);
+    max-width: 48rem;
 }
 
 canvas {
@@ -60,4 +61,14 @@ canvas {
     top: 0;
     left: 0;
     z-index: 0;
+}
+img{
+    border-style: dashed;
+    border-width: 10px;
+    border-color: var(--color-bg);
+}
+.asdflkj {
+    background-color: rgb(81, 160, 81);
+    padding-top: 2rem;
+    padding-bottom: 8rem;
 }
